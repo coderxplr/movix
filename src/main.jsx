@@ -4,7 +4,7 @@ import App from "./App.jsx";
 import "./index.scss";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  // <React.StrictMode>  // it calls api twice to check if the response is same on both the times or not.
+  <App />
+  // </React.StrictMode>
 );
